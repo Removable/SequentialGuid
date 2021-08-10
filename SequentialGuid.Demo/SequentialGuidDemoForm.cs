@@ -126,7 +126,13 @@ namespace SequentialGuid.Demo
         System.Threading.Thread.Sleep(1);
       }
 
-      this.resultsTextBox.Rtf = text.ToString();
+      try
+      {
+          this.resultsTextBox.Rtf = text.ToString();
+      }
+      catch
+      {
+      }
     }
   }
 }
