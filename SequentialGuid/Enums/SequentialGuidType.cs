@@ -3,10 +3,11 @@
 //     Copyright © Jeremy H. Todd 2011
 // </copyright>
 //-----------------------------------------------------------------------
+
+using System;
+
 namespace SequentialGuid
 {
-  using System;
-
   /// <summary>
   /// Describes the type of a sequential GUID value.
   /// </summary>

@@ -3,12 +3,12 @@
 //     Copyright © Jeremy H. Todd 2011
 // </copyright>
 //-----------------------------------------------------------------------
+
+using System;
+using System.Security.Cryptography;
+
 namespace SequentialGuid
 {
-  using System;
-  using System.Diagnostics.Contracts;
-  using System.Security.Cryptography;
-
   /// <summary>
   /// Contains methods for creating sequential GUID values.
   /// </summary>
